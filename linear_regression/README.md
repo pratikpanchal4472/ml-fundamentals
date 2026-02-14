@@ -81,29 +81,37 @@ What Each Column Means:
 #### Coefficients (β)
 
 β₀ = 7.0326: Baseline sales when TV budget = $0 is 7,033 units
+
 β₁ = 0.0475: For every $1 spent on TV ads, sales increase by 0.0475 units (or $1,000 = 47.5 units)
 
 #### Standard Error (SE)
 
 0.458 for β₀: Uncertainty in our intercept estimate
+
 0.003 for β₁: Uncertainty in our slope estimate
+
 Lower is better - means more precise estimates
 
 #### T-value
 
 15.360 for β₀: Very high! Intercept is highly significant
+
 17.668 for β₁: Even higher! TV strongly predicts sales
+
 Rule: t-value > 2 or < -2 means statistically significant
 
 #### P-value
 
 0.000 for both: Essentially 0% chance these relationships are random
+
 p < 0.05 is the threshold for "statistically significant"
+
 Both predictors are highly reliable!
 
 #### R-squared: 0.612
 
 Means 61.2% of the variation in Sales is explained by TV budget
+
 The other 38.8% is due to other factors (Radio ads, word-of-mouth, etc.)
 
 ## SaaS Example
